@@ -6,13 +6,15 @@ import { useFrame, useThree } from "@react-three/fiber";
 import { useRef } from "react";
 import { sRGBEncoding } from "@react-three/drei/helpers/deprecated";
 import { Canvas } from "@react-three/fiber";
-  
+
+
 function max(a,b){
   return a>b?a:b;
 }
 const Model = () => {
   
-  var scalingFactor = (max(window.innerWidth/1350, 0.9))*1.4;
+  // var scalingFactor = (max(window.innerWidth/1350, 0.9))*1.4;
+  var scalingFactor = ((window.innerWidth/1350>0.9)?window.innerWidth/1350:0.9)*1.4;
  const viewport = useThree((state) => state.viewport);
 
  function Tick() {
