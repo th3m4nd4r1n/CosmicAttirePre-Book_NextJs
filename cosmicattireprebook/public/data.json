@@ -1,0 +1,22 @@
+[
+    {
+        "idx": 1,
+        "question":"Do I need to charge the bracelet for day-to-day use?",
+        "answer":"The Alpha-1 Bracelet is charge-free and built for lifelong use. Its technology works without batteries—just tap and connect anytime, anywhere."
+    },
+    {
+        "idx": 2,
+        "question":"Is the Alpha-1 Bracelet water-resistant?",
+        "answer":"Yes! The Alpha-1 Bracelet is fully waterproof, perfect for daily wear in rain, sweat, and splashes."
+    },
+    {
+        "idx": 3,
+        "question":"Can I change the link stored on the bracelet?",
+        "answer":"Yes! The Alpha-1 Bracelet lets you update its link anytime, making it easy to share new info in just a few taps."
+    },
+    {
+        "idx": 4,
+        "question":"Is the Alpha-1 Bracelet compatible with my phone?",
+        "answer":"The Alpha-1 Bracelet works with most NFC-enabled smartphones, including iPhones and Android devices. Just tap to connect instantly."
+    }
+]

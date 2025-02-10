@@ -1,0 +1,12 @@
+@font-face {
+    font-family: balle;
+    src: url("../public/JosefinSans-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: k2d;
+    src: url("../public/K2D-SemiBold.ttf");
+}
+div.borders-up-down{
+    border-top: 2px white;
+    border-bottom: 2px white;
+}
