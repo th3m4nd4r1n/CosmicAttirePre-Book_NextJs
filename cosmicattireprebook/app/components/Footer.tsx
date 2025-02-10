@@ -11,7 +11,7 @@ const Footer = () => {
           alt="Instagram"
           className='h-[7vh]'
            /></a>
-          <a href="attirecosmic@gmail.com"><Image
+          <a href="mailto:attirecosmic@gmail.com"><Image
           src="/mail.svg"
           width={200}
           height={200}
