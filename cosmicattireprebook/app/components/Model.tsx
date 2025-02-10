@@ -15,7 +15,7 @@ const Model = () => {
   var scalingFactor = (max(window.innerWidth/1350, 0.9))*1.4;
  const viewport = useThree((state) => state.viewport);
 
- function tick() {
+ function Tick() {
    useFrame((state, delta) => {
     // console.log((window.innerWidth*30)/(60*window.innerHeight));
      ref.current.rotation.x=(Math.PI/2);
@@ -32,7 +32,7 @@ const Model = () => {
     //       refRot.current.position.x=Math.sin(state.clock.elapsedTime*0.6);
         ref.current.rotation.z=Math.sin(window.scrollY*0.0005)*0.9;
     })}
-   tick();
+   Tick();
 
     // 
  const { scene } = useGLTF('final_band.gltf');
