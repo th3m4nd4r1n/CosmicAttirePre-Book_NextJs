@@ -7,12 +7,8 @@ import { useRef } from "react";
 import { sRGBEncoding } from "@react-three/drei/helpers/deprecated";
 import { Canvas } from "@react-three/fiber";
 
-
-function max(a,b){
-  return a>b?a:b;
-}
 const Model = () => {
-  
+   const ref = useRef();
   // var scalingFactor = (max(window.innerWidth/1350, 0.9))*1.4;
   var scalingFactor = ((window.innerWidth/1350>0.9)?window.innerWidth/1350:0.9)*1.4;
  const viewport = useThree((state) => state.viewport);
@@ -38,12 +34,10 @@ const Model = () => {
 
     // 
  const { scene } = useGLTF('final_band.gltf');
- const ref = useRef();
- const refRot = useRef();
- const refRot2 = useRef();
+
     return (<>
-      <pointLight ref={refRot} color={'wheat'} intensity={20} />
-      <pointLight ref={refRot2} color={'gray'} intensity={20} />
+      <pointLight  color={'wheat'} intensity={20} />
+      <pointLight  color={'gray'} intensity={20} />
       <Environment preset="studio" environmentIntensity={1} />
       <mesh ref={ref} >
         <primitive object={scene} scale={scalingFactor} />
