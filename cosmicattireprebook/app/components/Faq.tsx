@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import { useState } from 'react'
 import Layouts from './Layout'
-import data from "/public/data.json"
+import data from "../../public/data.json"
 const inter = Inter({ subsets: ['latin'] })
 
 
