@@ -23,10 +23,10 @@ const Description = () => {
                         "The next generation of wearable technology enables instant, effortless communication, seamlessly integrating into daily life. With intuitive controls and advanced features, it allows for real-time connectivity, making interactions more convenient and efficient."
                         </h4>
                         <br /><br /><br />
-<a href="/Form"><button className='text-[1.5vw] rounded-full w-1/3 bg-red-600 hover:bg-black hover:text-red-600 text-black duration-150 ease-linear '>BOOK NOW</button></a>
+<a href="https://payments-test.cashfree.com/forms/alpha-1"><button className='text-[1.5vw] rounded-full w-1/3 bg-red-600 hover:bg-black hover:text-red-600 text-black duration-150 ease-linear '>BOOK NOW</button></a>
                     </div>
                     <Image
-                    src="/textures/Bracelet_Base_Color.png"
+                    src="/tap.svg"
                     width={900}
                     height={600}
                     alt="Balle balle"	

@@ -7,7 +7,7 @@ const Photo = () => {
     <div className='flex justify-center items-center h-screen w-screen'>
         <div className='w-screen h-[35vh] bg-black border-y-2 border-white flex items-center justify-around'>
             <Image
-            src="/Band.jpg"
+            src="/tap.svg"
             width={900}
             height={199}
             alt="band"
