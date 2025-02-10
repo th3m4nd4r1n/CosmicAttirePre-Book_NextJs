@@ -43,6 +43,6 @@ const Model = () => {
         <primitive object={scene} scale={scalingFactor} />
       </mesh>
     </>
-        );
+);
 }
 export default Model;
