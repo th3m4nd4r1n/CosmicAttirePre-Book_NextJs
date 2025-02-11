@@ -30,13 +30,13 @@ const Accordion = ({question, answer, turn, setTurn, idx}: Props) => {
   return (
     <div className='flex flex-col items-center justify-center w-full px-2 text-lg pt-4 lg:text-base'>
       <button onClick={toggleAccordion}
-       className={`bg-black rounded-full border-2 border-red-900 px-5 shadow cursor-pointer w-full h-full ${turn![idx]}`}>
+       className={`bg-[rgba(84,84,84,0.16)] rounded-full px-5 shadow cursor-pointer w-full h-full ${turn![idx]}`}>
         <div className='py-3'>
            <div className='flex items-center justify-between h-14 text-left'>
               <span className=' ml-2 font-medium lg:font-semibold lg:text-xl text-sm text-white font-[balle]font-semibold'>{question}</span>
               <div>
-               { turn![idx] ? <Image src="/confidence.jpg" alt="" width={20} height={20}/> :
-                <Image src="/band.jpg" alt="" width={20} height={20}/>}
+               { turn![idx] ? <Image src="/minus.svg" alt="" width={40} height={40}/> :
+                <Image src="/down.svg" alt="" width={40} height={40} />}
 
               </div>
            </div>

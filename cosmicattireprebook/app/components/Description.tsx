@@ -23,7 +23,7 @@ const Description = () => {
                         "The next generation of wearable technology enables instant, effortless communication, seamlessly integrating into daily life. With intuitive controls and advanced features, it allows for real-time connectivity, making interactions more convenient and efficient."
                         </h4>
                         <br /><br /><br />
-<a href="https://payments-test.cashfree.com/forms/alpha-1"><button className='md:text-[1.5vw] text-[5vw] rounded-full md:w-1/3 w-full bg-red-600 hover:bg-black hover:text-red-600 text-black duration-150 ease-linear '>BOOK NOW</button></a>
+<a href="https://rzp.io/rzp/H5JYxZr"><button className='md:text-[1.5vw] text-[5vw] rounded-full md:w-1/3 w-full bg-red-600 hover:bg-black hover:text-red-600 text-black duration-150 ease-linear '>BOOK NOW</button></a>
                     </div>
                     <Image
                     src="/tap.svg"
