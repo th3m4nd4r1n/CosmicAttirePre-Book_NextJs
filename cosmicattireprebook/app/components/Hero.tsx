@@ -11,7 +11,14 @@ const Hero = () => {
       height={900}
       alt="balle"
       quality={100}
-      className='w-screen h-screen -z-20' />
+      className='w-screen h-screen -z-20 md:visible invisible' />
+      <Image src="/mobilebg.svg" 
+      width={440}
+      height={956}
+      alt="Alpha 1"
+      className='absolute h-screen w-screen md:invisible visible -z-20'
+      />
+
         <div className='h-[270vh] w-[3.2vw] absolute right-[46.9vw] top-[100vh] bg-red-600 -z-10'> </div>
         <div className='h-[270vh] w-[3.2vw] absolute right-[46.9vw] top-[100vh] bg-red-600 blur-2xl -z-10'> </div>
     </div>
