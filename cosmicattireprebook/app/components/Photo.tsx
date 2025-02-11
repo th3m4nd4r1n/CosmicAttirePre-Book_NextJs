@@ -9,7 +9,7 @@ const Photo = () => {
     <div className='flex justify-center items-center w-screen bg-[rgba(84,84,84,0.16)] h-[40vh]'>
         <div className='w-screen h-[35vh] bg-transparent border-y-[1px] border-white flex items-center justify-around'>
             <Image
-            src="/wear.svg"
+            src="/WEAR.svg"
             width={700}
             height={500}
             alt="band"
