@@ -11,23 +11,23 @@ const Photo = () => {
             <Image
             src="/wear.svg"
             width={700}
-            height={400}
+            height={500}
             alt="band"
-            className='h-[25vh] w-[25vw]'
+            className='md:h-[25vh] md:w-[25vw]'
             />
             <Image
             src="/TAP(1).svg"
-            width={413}
-            height={199}
+            width={700}
+            height={500}
             alt="band"
-            className='h-[25vh] w-[25vw]'
+            className='md:h-[25vh] md:w-[25vw]'
             />
             <Image
-            src="/range.jpg"
-            width={413}
-            height={199}
+            src="/share.svg"
+            width={700}
+            height={500}
             alt="band"
-            className='h-[25vh] w-[25vw]'
+            className='md:h-[25vh] md:w-[25vw]'
             />   
 
            

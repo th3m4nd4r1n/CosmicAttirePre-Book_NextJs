@@ -26,11 +26,11 @@ const Description = () => {
 <a href="https://rzp.io/rzp/H5JYxZr"><button className='md:text-[1.5vw] text-[5vw] rounded-full md:w-1/3 w-full bg-red-600 hover:bg-black hover:text-red-600 text-black duration-150 ease-linear '>BOOK NOW</button></a>
                     </div>
                     <Image
-                    src="/tap.svg"
-                    width={900}
-                    height={600}
+                    src="/bandwobg.svg"
+                    width={650}
+                    height={940}
                     alt="Balle balle"	
-                    className='w-[30vw] h-[60vh]'
+                    className='md:w-[30vw] md:h-[60vh] w-[40vw] mt-20 md:mt-0'
                     />
                     </div>
                 </div>

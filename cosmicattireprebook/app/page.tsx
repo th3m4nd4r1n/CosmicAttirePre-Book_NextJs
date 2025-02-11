@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
+   
       <div className="fixed -z-10">
         <Render />
       </div>
