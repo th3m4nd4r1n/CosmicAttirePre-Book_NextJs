@@ -19,8 +19,8 @@ const Hero = () => {
       className='absolute h-screen w-screen md:invisible visible -z-20'
       />
 
-        <div className='h-[270vh] w-[3.2vw] absolute right-[46.9vw] top-[100vh] bg-red-600 -z-10'> </div>
-        <div className='h-[270vh] w-[3.2vw] absolute right-[46.9vw] top-[100vh] bg-red-600 blur-2xl -z-10'> </div>
+        <div className='h-[300vh] md:w-[3.2vw] w-[3.5vw] absolute right-[46.9vw] top-[100vh] bg-red-600 -z-10'> </div>
+        <div className='h-[300vh] md:w-[3.2vw] w-[3.5vw] absolute right-[46.9vw] top-[100vh] bg-red-600 md:blur-2xl blur-lg -z-10'> </div>
     </div>
     
     </>
