@@ -4,6 +4,7 @@ import Image
 const Hero = () => {
   return (
     <>
+  
     <div className='w-screen h-screen josefin-sans-custom flex justify-center items-center text-center font-[balle] font-bold -z-10'>
       <Image
       src="/image.png"
