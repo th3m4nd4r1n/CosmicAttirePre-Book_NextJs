@@ -1,3 +1,4 @@
+import React from "react";
 import Render from "./components/Render";
 import Hero from "./components/Hero";
 import './customs.css';

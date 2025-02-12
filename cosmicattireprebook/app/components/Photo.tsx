@@ -16,7 +16,7 @@ const Photo = () => {
             className='md:h-[25vh] md:w-[25vw]'
             />
             <Image
-            src="/TAP(1).svg"
+            src="/TAP.svg"
             width={700}
             height={500}
             alt="band"
